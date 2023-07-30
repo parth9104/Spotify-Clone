@@ -36,7 +36,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
                 </li>
                 <li class="song_item">
                     <span>03</span>
@@ -44,7 +44,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
                 </li>
                 <li class="song_item">
                     <span>04</span>
@@ -52,7 +52,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
                 </li>
                 <li class="song_item">
                     <span>05</span>
@@ -60,7 +60,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
                 </li>
                 <li class="song_item">
                     <span>06</span>
@@ -68,7 +68,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
                 </li>
                 <li class="song_item">
                     <span>07</span>
@@ -76,7 +76,7 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
                 </li>
                 <li class="song_item">
                     <span>08</span>
@@ -84,30 +84,55 @@
                     <h5>On My Way <br>
                         <div class="subtitle">Alan Walker</div>
                     </h5>
-                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
                 </li>
             </div>
-            </div>
         </div>
+        
         <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover</li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+            </nav>
         </div>
         <div class="master_play">
             <div class="wave">
                 <div class="wave1"></div>
                 <div class="wave1"></div>
                 <div class="wave1"></div>
-                        </div>
-                        <img src="img/12.jpg" alt="img" id="poster_master_play">
-        <h5 id="title">
-            Vande Matram
-            <div class="subtitle">Bankim Chnadra</div>
-        </div>
+            </div>
+            <img src="img/12.jpg" alt="img" id="poster_master_play">
+            <h5 id="title">
+                Vande Mataram
+                <div class="subtitle">Bankim Chnadra</div>
         
+
         </h5>
         <div class="icon">
-            
+            <i class="bi shuffle bi-music-note-beamed"></i>
+            <i class="bi bi-skip-start-fill"></i>
+            <i class="bi bi-play-fill"></i>
+            <i class="bi bi-skip-end-fill"></i>
+            <i class="bi bi-cloud-arrow-down-fill" id="download-music"></i>
         </div>
-    </div>
+        <span id="currentstart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:30</span>
+        <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol-icon"></i>
+            <input type="range" min="0" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol-dot"></div>
+        </div>
+        </div>
+
     </header>
 
     <script src="app.js"></script>
